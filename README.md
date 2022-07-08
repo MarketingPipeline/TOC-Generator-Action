@@ -83,7 +83,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 
 <br>
 
-Example [workflow file](.github/example_workflow.yaml)         
+Example [workflow file](.github/workflows/example_workflow.yaml)         
 
 
 
