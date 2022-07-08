@@ -1,4 +1,4 @@
-name: GitHub Downloader
+name: Generate Table Of Contents
 # Define when to run job here
 on: [push, pull_request]
 
