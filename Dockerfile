@@ -18,6 +18,6 @@ RUN set -e -x; \
             openssh-client \
         ;
 
-CMD npm i markdown-toc-gen
 
-CMD npm markdown-toc-gen update README.md
+RUN ["chmod", "+x", "/usr/local/bin/entrypoint"]
+ENTRYPOINT ["/usr/local/bin/entrypoint"]
