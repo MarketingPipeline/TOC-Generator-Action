@@ -24,7 +24,7 @@ A Github Action to download single files or folders from another repo without cl
 
 	
 
-## Example and usages
+## Example and usage
 
 
 ######
@@ -75,7 +75,7 @@ To generate tables of contents automatically use anywhere in your README.md file
       run: |
          git config --global user.name "github-actions[bot]"
          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git add -A
+         git add README.md
          git commit -m "Updated Table Of Contents"
          git push
          
