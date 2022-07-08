@@ -13,7 +13,6 @@ RUN set -e -x; \
             jq \
             git \
             nodejs \
-            nodejs-npm \
             npm \
             coreutils \
             openssh-client \
