@@ -19,6 +19,6 @@ RUN set -e -x; \
         ;
 
 CMD npm install --force --save markdown-toc
-COPY README.md ./
+COPY README.md /
 
-ENTRYPOINT ["npx markdown-toc-gen update README.md"]
+CMD ["npx markdown-toc-gen update README.md"]
