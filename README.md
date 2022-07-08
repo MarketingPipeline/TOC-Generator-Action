@@ -35,6 +35,11 @@ A Github Action to download single files or folders from another repo without cl
 
 <!-- toc -->
 
+- [Example and usage](#example-and-usage)
+- [WARNING: Only 1 table of contents can be generated in a README - if you use more than one you WILL face problems.](#warning-only-1-table-of-contents-can-be-generated-in-a-readme---if-you-use-more-than-one-you-will-face-problems)
+- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/GitHub-Downloader-Action)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelinegithub-downloader-action)
+- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/GitHub-Downloader-Action)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelinegithub-downloader-action)
+
 <!-- tocstop -->
 
 <br>
