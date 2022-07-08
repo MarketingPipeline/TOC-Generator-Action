@@ -18,6 +18,6 @@ RUN set -e -x; \
             openssh-client \
         ;
 
-CMD npm install --force --save markdown-toc
+RUN npm i markdown-toc-gen
 
-CMD npm markdown-toc-gen update README.md
+RUN npm markdown-toc-gen update README.md
