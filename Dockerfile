@@ -18,6 +18,7 @@ RUN set -e -x; \
             openssh-client \
         ;
 
+COPY entrypoint /usr/local/bin/
 
 RUN ["chmod", "+x", "/usr/local/bin/entrypoint"]
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
