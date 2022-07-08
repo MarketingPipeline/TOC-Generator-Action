@@ -12,11 +12,12 @@ RUN set -e -x; \
             curl \
             jq \
             git \
-            npx \
+            npm \
             coreutils \
             openssh-client \
         ;
 
+RUN npm install --save markdown-toc
 COPY README.md ./
 
 ENTRYPOINT ["npx markdown-toc-gen update README.md"]
