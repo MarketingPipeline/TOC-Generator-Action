@@ -1,0 +1,11 @@
+name: 'Action name'
+description: 'Action description'
+author: 'italia'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'activity'
+  color: 'white'
