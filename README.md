@@ -31,7 +31,7 @@ A Github Action to download single files or folders from another repo without cl
 
 <details><summary> Preview Table Of Contents</summary>
 
-<br>
+<br> <br>
 
 <!-- toc -->
 
@@ -42,11 +42,11 @@ A Github Action to download single files or folders from another repo without cl
 
 <!-- tocstop -->
 
-<br>
 
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
 
-
+<br>
 <details><summary>How to generate <b>Table Of Contents</b>:</summary>
 <br>
   
@@ -62,6 +62,8 @@ To generate tables of contents automatically use anywhere in your README.md file
 
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
+
+<br>
 
 <details>
 <summary> View Example <b>Workflow Usage</b></summary> 
