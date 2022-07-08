@@ -24,7 +24,7 @@ A Github Action to generate table of contents in your README
 
 	
 
-## Example and usage
+## Example and usages
 
 
 ######
