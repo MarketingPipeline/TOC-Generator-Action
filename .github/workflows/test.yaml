@@ -12,7 +12,7 @@ jobs:
       with:
         # Define the folder or file to download
         repo: https://github.com/MarketingPipeline/GitHub-Downloader-Action/blob/master/
-        overwrite: "true"
+        overwrite: true
 
      # Commit the updates
     - name: Commit and Push Downloaded Files 
