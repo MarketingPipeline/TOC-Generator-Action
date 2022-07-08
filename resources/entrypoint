@@ -1,5 +1,54 @@
 #!/bin/bash
 
-npm i markdown-toc-gen
+#####################################################
+#  Download Specific folders from Github using SVN
+#  
+#  Orginal Author: Declan Cook
+#  Modified by: MarketingPip from github.com/MarketingPipeline
+#  Licence: MIT
+#####################################################
+GHDOMAIN="https://github.com/"
+IN=$1
+FILEPATH=$2
+OVERWRITE=$3
+IN=${IN##$GHDOMAIN}
+BRANCH="trunk"
+FOLDER=""
+IFS="/" read -a SECT <<< "$IN" 
 
-npm markdown-toc-gen update README.md
+
+### File Path Option
+if [ -z "$FILEPATH" ]
+then
+      echo "\FILEPATH option was not chosen, files will be moved into main repo folder"
+      FILEPATH="./"
+else
+      echo "\FILEPATH option was chosen, files will be moved into $FILEPATH if it exists"
+      FILEPATH=$FILEPATH
+fi
+
+
+### Overwrite files
+
+if [ -z "$OVERWRITE"]
+then
+      echo "\OVERWRITE option was not chosen, files will not be overwritten"
+      OVERWRITE=""
+else
+      echo "\OVERWRITE option was chosen, files will be overwritten"
+      OVERWRITE="--force"
+fi
+
+
+if [[ "${SECT[3]}" != "master" ]]; then
+  BRANCH=${SECT[3]}
+fi
+for index in "${!SECT[@]}"; do
+  if [ $index -gt 3 ]; then
+    FOLDER=$FOLDER/${SECT[index]}
+  fi
+done
+
+# DOMAIN/USER/PROJECT/<TRUNK||BRANCH>/FOLDER
+echo Exporting $GHDOMAIN${SECT[0]}/${SECT[1]}/$BRANCH$FOLDER
+svn $OVERWRITE export $GHDOMAIN${SECT[0]}/${SECT[1]}/$BRANCH$FOLDER $FILEPATH
