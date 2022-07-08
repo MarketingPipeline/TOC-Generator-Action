@@ -21,4 +21,4 @@ RUN set -e -x; \
 CMD npm install --force --save markdown-toc
 COPY README.md /
 
-CMD ["npm markdown-toc-gen update README.md"]
+CMD npm markdown-toc-gen update README.md
