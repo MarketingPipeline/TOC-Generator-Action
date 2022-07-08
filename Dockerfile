@@ -12,11 +12,11 @@ RUN set -e -x; \
             curl \
             jq \
             git \
+            npx \
             coreutils \
             openssh-client \
         ;
 
-COPY entrypoint /usr/local/bin/
+COPY README.md ./
 
-RUN ["chmod", "+x", "/usr/local/bin/entrypoint"]
-ENTRYPOINT ["/usr/local/bin/entrypoint"]
+ENTRYPOINT ["npx markdown-toc-gen update README.md"]
