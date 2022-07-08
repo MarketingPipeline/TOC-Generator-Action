@@ -2,4 +2,4 @@
 
 npm i markdown-toc-gen
 
-npm markdown-toc-gen update README.md
+markdown-toc-gen update README.md
