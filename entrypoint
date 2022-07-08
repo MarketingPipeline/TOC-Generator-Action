@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm i markdown-toc-gen
+
+npm markdown-toc-gen update README.md
