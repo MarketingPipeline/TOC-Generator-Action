@@ -37,8 +37,8 @@ A Github Action to generate table of contents in your README
 
 - [Example and usages](#example-and-usages)
 - [WARNING: Only 1 table of contents can be generated in a README - if you use more than one you WILL face problems.](#warning-only-1-table-of-contents-can-be-generated-in-a-readme---if-you-use-more-than-one-you-will-face-problems)
-- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/GitHub-Downloader-Action)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelinegithub-downloader-action)
-- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/GitHub-Downloader-Action)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelinegithub-downloader-action)
+- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/TOC-Generator-Action)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelinetoc-generator-action)
+- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/TOC-Generator-Action)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelinetoc-generator-action)
 
 <!-- tocstop -->
 
