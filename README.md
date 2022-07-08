@@ -24,7 +24,7 @@ A Github Action to download single files or folders from another repo without cl
 
 	
 
-## Example and usage
+## Example and usages
 
 
 ######
