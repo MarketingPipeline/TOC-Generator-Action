@@ -11,11 +11,11 @@ A Github Action to generate table of contents in your README
    <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
-   <a href="https://github.com/MarketingPipeline/GitHub-Downloader-Action">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/GitHub-Downloader-Action.svg?style=social&label=Star">
+   <a href="https://github.com/MarketingPipeline/TOC-Generator-Action">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/TOC-Generator-Action.svg?style=social&label=Star">
   </a>
   <a href="https://github.com/MarketingPipeline/GitHub-Downloader-Action/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/GitHub-Downloader-Action.svg?style=social&label=Fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/TOC-Generator-Action.svg?style=social&label=Fork">
   </a>
    </p>  
  </div>
@@ -70,7 +70,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 <br><br>
 
     - uses: actions/checkout@v2
-    - uses: MarketingPipeline/Table-of-Contents-Generator@main
+    - uses: MarketingPipeline/TOC-Generator-Action@main
 
 
     - name: Commit and Push Updated Table Of Contents
@@ -89,18 +89,18 @@ Example [workflow file](.github/workflows/example_workflow.yaml)
 
 
 
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/GitHub-Downloader-Action)
+## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/TOC-Generator-Action)
 
 Want to imrpove this action? Create a pull request with described in detail with your changes! If approved you will be added to the list of contributors of this awesome project!
 
 See also the list of
-[contributors](https://github.com/MarketingPipeline/GitHub-Downloader-Action/graphs/contributors) who
+[contributors](https://github.com/MarketingPipeline/TOC-Generator-Action/graphs/contributors) who
 participate in this project.
 
-## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/GitHub-Downloader-Action)
+## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/TOC-Generator-Action)
 
 This project is licensed under the MIT License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/GitHub-Downloader-Action/blob/main/LICENSE) file for
+[LICENSE.md](https://github.com/MarketingPipeline/TOC-Generator-Action/blob/main/LICENSE) file for
 details.
 
 
