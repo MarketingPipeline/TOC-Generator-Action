@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "markdown-toc-gen": "^1.0.1"
+  }
+}
