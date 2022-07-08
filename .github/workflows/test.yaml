@@ -1,6 +1,6 @@
 name: GitHub Downloader
 # Define when to run job here
-#on: [push, pull_request]
+on: [push, pull_request]
 
 jobs:
   example_job:
@@ -11,13 +11,8 @@ jobs:
     - uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
         # Define the folder or file to download
-        repo: https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/.github/py_repo_tools/
-        
-        
-    - uses: MarketingPipeline/GitHub-Downloader-Action@main
-      with:
-        # Define the folder or file to download
-        repo: https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/.github/workflows/     
+        repo: https://github.com/MarketingPipeline/GitHub-Downloader-Action/blob/master/
+        overwrite: true
 
      # Commit the updates
     - name: Commit and Push Downloaded Files 
