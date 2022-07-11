@@ -1,9 +1,6 @@
-FROM alpine:latest
+# Dockerfile created by github.com/MarketingPipeline
 
-LABEL "com.github.actions.name"="git-bash"
-LABEL "com.github.actions.description"="Run a command or script in a Git-ready environment"
-LABEL "com.github.actions.icon"="hash"
-LABEL "com.github.actions.color"="black"
+FROM alpine:latest
 
 RUN set -e -x; \
         apk add --no-cache \
