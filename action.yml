@@ -1,6 +1,6 @@
-name: 'Action name'
-description: 'Action description'
-author: 'italia'
+name: 'TOC Generator'
+description: 'A GitHub Action to generate a Table of Contents in your README.md'
+author: 'github.com/MarketingPipeline'
 
 runs:
   using: 'docker'
