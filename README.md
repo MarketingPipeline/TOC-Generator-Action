@@ -31,7 +31,7 @@ A Github Action to generate table of contents in your README
 
 <details><summary> Preview Table Of Contents</summary>
 
-<br> <br>
+<br> 
 
 <!-- toc -->
 
@@ -43,7 +43,7 @@ A Github Action to generate table of contents in your README
 <!-- tocstop -->
 
 
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+ <br>	 	 	
 </details>
 
 <br>
@@ -60,7 +60,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+ <br>	 
 </details>
 
 <br>
