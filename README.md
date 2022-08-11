@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img height="400" src="https://capsule-render.vercel.app/api?type=waving&color=03a9f4&height=300&section=header&text=Table of Contents Generator&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A GitHub Workflow Action by github.com/MarketingPipeline &descAlignY=51&descAlign=50" />
+  <img height="400" src="https://capsule-render.vercel.app/api?type=waving&color=03a9f4&height=300&section=header&text=Table%20of%20Contents%20Generator&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20GitHub%20Workflow%20Action%20by%20github.com/MarketingPipeline&descAlignY=51&descAlign=50"/>
 </p>
 <div align="center">
 A Github Action to generate table of contents in your README
